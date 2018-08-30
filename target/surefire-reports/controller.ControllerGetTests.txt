@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: controller.ControllerGetTests
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 6.965 s <<< FAILURE! - in controller.ControllerGetTests
+getAllProductsTest(controller.ControllerGetTests)  Time elapsed: 1.003 s  <<< FAILURE!
+java.lang.AssertionError
+	at controller.ControllerGetTests.getAllProductsTest(ControllerGetTests.java:29)
+
+validateLoginTest(controller.ControllerGetTests)  Time elapsed: 1.003 s  <<< FAILURE!
+java.lang.AssertionError
+	at controller.ControllerGetTests.validateLoginTest(ControllerGetTests.java:102)
+
+getProductByIdTest(controller.ControllerGetTests)  Time elapsed: 1.003 s  <<< FAILURE!
+java.lang.AssertionError
+	at controller.ControllerGetTests.getProductByIdTest(ControllerGetTests.java:44)
+
+getBasketByIdTest(controller.ControllerGetTests)  Time elapsed: 1.002 s  <<< FAILURE!
+java.lang.AssertionError
+	at controller.ControllerGetTests.getBasketByIdTest(ControllerGetTests.java:72)
+

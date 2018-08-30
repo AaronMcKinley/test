@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: controller.ControllerDeleteTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.615 s <<< FAILURE! - in controller.ControllerDeleteTests
+removeListingsByIdTest(controller.ControllerDeleteTests)  Time elapsed: 1.451 s  <<< FAILURE!
+java.lang.AssertionError
+	at controller.ControllerDeleteTests.removeListingsByIdTest(ControllerDeleteTests.java:24)
+

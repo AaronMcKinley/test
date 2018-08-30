@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: controller.ControllerPostTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 5.766 s <<< FAILURE! - in controller.ControllerPostTests
+addOrderTest(controller.ControllerPostTests)  Time elapsed: 1.003 s  <<< FAILURE!
+java.lang.AssertionError
+	at controller.ControllerPostTests.addOrderTest(ControllerPostTests.java:48)
+
+registerUserTest(controller.ControllerPostTests)  Time elapsed: 1.006 s  <<< FAILURE!
+java.lang.AssertionError
+	at controller.ControllerPostTests.registerUserTest(ControllerPostTests.java:75)
+
+addItemsTest(controller.ControllerPostTests)  Time elapsed: 1.003 s  <<< FAILURE!
+java.lang.AssertionError
+	at controller.ControllerPostTests.addItemsTest(ControllerPostTests.java:21)
+
